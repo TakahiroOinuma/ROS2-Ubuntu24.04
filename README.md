@@ -1,15 +1,18 @@
-# ROS2-Ubuntu24.04
-Ubuntu24.04にROS2をぶち込んでやる
-今までのROS2-foxyは入らんからROS2-jazzyっていう後継のを使うぞ
-ROS2-jazzyはUbuntu24.04に対応してるやつでRaspberry Pi5の公式推奨Ubuntuが24.04以降なのでこれを使ってやらんといかん
-Raspberry Pi5でしか動作確認してないんでとりあえずはかんばってくれ
-以下のサイトからとりあえずRaspberri Pi Imagerを引っ張ってきてUbuntu24.04 のOSを入れてくれ
-この[サイト](https://www.raspberrypi.com/software/)から取ってきた
-筆者はUbuntu Desktop 24.04.1 LTS(64-bit)
-を入れて作業した
-んで、立ち上げたらいろいろ初期設定してから
-terminalを開いて以下のプログラムを入れる
-まず初めにパッケージインストールとリポジトリを入れてくれ
+# ROS2-Ubuntu24.04  
+Ubuntu24.04にROS2をぶち込んでやる  
+今までのROS2-foxyは入らんからROS2-jazzyっていう後継のを使うぞ  
+ROS2-jazzyはUbuntu24.04に対応してるやつでRaspberry Pi5の公式推奨Ubuntuが24.04以降なので  
+これを使ってやらんといかん  
+
+Raspberry Pi5でしか動作確認してないんでとりあえずはかんばってくれ  
+以下のサイトからとりあえずRaspberri Pi Imagerを引っ張ってきてUbuntu24.04 のOSを入れてくれ  
+この[サイト](https://www.raspberrypi.com/software/)から取ってきた  
+筆者はUbuntu Desktop 24.04.1 LTS(64-bit)  
+を入れて作業した  
+
+んで、立ち上げたらいろいろ初期設定してから  
+terminalを開いて以下のプログラムを入れる  
+まず初めにパッケージインストールとリポジトリを入れてくれ  
 ```
 sudo apt update
 sudo add-apt-repository universe
