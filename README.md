@@ -39,6 +39,7 @@ ros2 run demo_nodes_cpp talker
 source /opt/ros/foxy/setup.bash
 ros2 run demo_nodes_py listener
 ```
+入れて各ターミナルに
 Hello Worldの結果が二つとも同じ数値を同時に受け渡せていれば大丈夫
 
 ダメそうならちょっと教えてくれると大変うれしいどす
