@@ -34,12 +34,10 @@ sudo apt install ros-gazzy-desktop
 1つターミナル開いて
 1つ目で以下の
 ```
-source /opt/ros/foxy/setup.bash
 ros2 run demo_nodes_cpp talker
 ```
 2つ目で以下の
 ```
-source /opt/ros/foxy/setup.bash
 ros2 run demo_nodes_py listener
 ```
 入れて各ターミナルに
